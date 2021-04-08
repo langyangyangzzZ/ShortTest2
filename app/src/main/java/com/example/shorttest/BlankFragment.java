@@ -25,7 +25,6 @@ public class BlankFragment extends Fragment {
 
         tv = view.findViewById(R.id.tv);
 
-
         if (getArguments() != null) {
             String title = getArguments().getString("title");
             tv.setText(title);
